@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 4
+
+   Roads Not Taken Audio Styles
+   Author: Ethan Gruenemeier
+   Date: 2.1.19
+
+   Filename: rnt_audio.css
+
+*/
+
+/* Audio Styles */
+/* This effects the audio element and sets the display, box-shadow, border radius, margin, and width */
+audio {
+    display: block;
+    box-shadow: darkgray 8px 8px 15px;
+    border-radius: 2em;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* This effects the audio elements control panel and sets the background color to an rgb value. */
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+}
